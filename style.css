@@ -11,7 +11,7 @@ body::before {
 }
 
 .c-crimson {
-  color: crimson !important;
+  color: #dc143c !important;
 }
 
 .c-brand {
@@ -19,8 +19,8 @@ body::before {
 }
 
 .c-bg-crimson {
-  background-color: crimson !important;
-  border-color: crimson !important;
+  background-color: #dc143c !important;
+  border-color: #dc143c !important;
   color: white !important;
 }
 
@@ -33,10 +33,15 @@ body::before {
 }
 
 .showcase-header {
-  text-shadow: 2px 2px 5px red;
+  text-shadow: 2px 2px 5px #dc143c;
 }
 
 .c-bg-black {
   background-color: black !important;
   border-color: black !important;
+}
+
+nav li a:hover {
+  color: #dc143c !important;
+  font-weight: bolder !important;
 }
