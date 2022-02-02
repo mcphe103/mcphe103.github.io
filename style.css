@@ -1,0 +1,42 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50% !important;
+  }
+}
+
+.c-crimson {
+  color: crimson !important;
+}
+
+.c-brand {
+  font-size: 35px !important;
+}
+
+.c-bg-crimson {
+  background-color: crimson !important;
+  border-color: crimson !important;
+  color: white !important;
+}
+
+.c-font-m {
+  font-family: Montserrat !important;
+}
+
+.c-font-i {
+  font-family: Iceland !important;
+}
+
+.showcase-header {
+  text-shadow: 2px 2px 5px red;
+}
+
+.c-bg-black {
+  background-color: black !important;
+  border-color: black !important;
+}
