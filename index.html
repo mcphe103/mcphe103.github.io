@@ -72,13 +72,25 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="#learn" class="nav-link">About Me</a>
+              <a href="#projects" class="nav-link">Projects</a>
             </li>
             <li class="nav-item">
-              <a href="#questions" class="nav-link">Projects</a>
+              <a href="#learn" class="nav-link">About me</a>
             </li>
             <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact Me</a>
+              <a
+                href="#contact"
+                class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#enroll"
+                >Contact Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#faq" class="nav-link">FAQ's</a>
             </li>
           </ul>
         </div>
@@ -121,17 +133,21 @@
 
     <!-- Boxes -->
 
-    <section class="p-5">
+    <section class="p-5" id="projects">
       <div class="container">
+        <div class="col-md p-5">
+          <h2 class="text-center">My Most Recent Projects</h2>
+          <h3 class="text-center">To Be Coming Soon</h3>
+        </div>
         <div class="row text-center g-4">
           <!-- box 1 -->
           <div class="col-md">
             <div class="card c-bg-black text-light">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
-                  <i class="bi bi-laptop"></i>
+                  <i class="bi bi-laptop c-crimson"></i>
                 </div>
-                <h3 class="card-title mb-3">Virtual</h3>
+                <h3 class="card-title mb-3">Project 1</h3>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Dolores dicta nostrum ea rem laboriosam saepe!
@@ -145,9 +161,9 @@
             <div class="card bg-secondary text-light">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
-                  <i class="bi bi-person-square"></i>
+                  <i class="bi bi-person-square c-crimson"></i>
                 </div>
-                <h3 class="card-title mb-3">Virtual</h3>
+                <h3 class="card-title mb-3">Project 2</h3>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Dolores dicta nostrum ea rem laboriosam saepe!
@@ -161,9 +177,9 @@
             <div class="card c-bg-black text-light">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
-                  <i class="bi bi-people"></i>
+                  <i class="bi bi-people c-crimson"></i>
                 </div>
-                <h3 class="card-title mb-3">In Person</h3>
+                <h3 class="card-title mb-3">In Project 3</h3>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Dolores dicta nostrum ea rem laboriosam saepe!
@@ -185,20 +201,51 @@
             <img src="img/mac-computer.png" class="img-fluid" alt="" />
           </div>
           <div class="col-md p-5">
-            <h2>Learn The Fundemantals</h2>
+            <h2>About Me</h2>
             <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum,
-              at ullam minus amet? Earum, ipsa!
+              I have self studied front-end web developement for 3 plus years
+              and attended school to obstain my Web Development Specialist
+              Certificate in the year 2021. I have built several projects on my
+              own and continue to learn more everyday.
             </p>
             <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reprehenderit quod dolores officiis vero delectus magnam odio
-              veniam accusamus dolorum! Delectus voluptatem dolor nihil alias
-              doloribus reprehenderit iure laborum quis in.
+              When I am not working on any sort of wed design or developement, I
+              do other hobbies on my spare time. While I love spending time with
+              my friends and play games together, I also take time to create
+              content for YouTube and Twitch. If you would like to know more
+              about my live streaming or YouTube channel, click the "Read More"
+              option.
             </p>
-            <a href="" class="btn btn-light mt-3">
-              <i class="bi bi-chevron-right"></i> Read More
-            </a>
+            <!--  -->
+            <div class="dropdown">
+              <button
+                class="btn btn-light"
+                type="button"
+                id="dropdownMenuButton2"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="bi bi-chevron-right"></i> Read More
+              </button>
+              <ul class="dropdown-menu dropdown-menu-light">
+                <li>
+                  <a
+                    class="dropdown-item active"
+                    href="https://www.youtube.com/channel/UCrpCVP1SdOT5InxZ-FTMByA"
+                    >Moon Light Streaming (YouTube)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.twitch.tv/zhendarian"
+                    >Twitch Channel</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!--  -->
           </div>
         </div>
       </div>
@@ -206,24 +253,27 @@
 
     <!-- Learn Sections 2 -->
 
-    <section id="learn" class="p-5 c-bg-black text-light">
+    <section id="learn" class="p-5 c-bg-black text-light" id="services">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md p-5">
-            <h2>Learn React</h2>
+            <h2>Services Provided</h2>
             <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum,
-              at ullam minus amet? Earum, ipsa!
+              Whether it's creating a whole new static website for your project,
+              redesigning the architecture of your site, troubleshooting or
+              maintaining your site, there is something in it for you! Like what
+              you see? Fill out the contact form and let's discuss what can be
+              done to make your vision come true!
             </p>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reprehenderit quod dolores officiis vero delectus magnam odio
-              veniam accusamus dolorum! Delectus voluptatem dolor nihil alias
-              doloribus reprehenderit iure laborum quis in.
-            </p>
-            <a href="" class="btn btn-light mt-3">
-              <i class="bi bi-chevron-right"></i> Read More
-            </a>
+
+            <button
+              class="btn btn-light"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              <i class="bi bi-chevron-right"></i> Contact Me
+            </button>
           </div>
           <div class="col-md">
             <img src="img/tech.png" class="img-fluid" alt="" />
@@ -234,7 +284,7 @@
 
     <!-- Question Accourdion -->
 
-    <section class="p-5" id="learn">
+    <section class="p-5" id="faq">
       <div class="container">
         <h2 class="text-center mb-4">Frequently Asked Questions</h2>
         <div class="accordion accordion-flush" id="questions">
@@ -245,9 +295,42 @@
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
+                data-bs-target="#question-five"
+              >
+                Having a custom website is great! But, do you hold me hostage
+                forever?
+              </button>
+            </h2>
+            <div
+              id="question-five"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                <p>
+                  Absolutely NOT!!! The great thing about our company is that
+                  you are hiring us to build your website. Once complete you
+                  have total ownership of everything. You are not held hostage
+                  by us because everything we code is 100% open source which
+                  means we do not encrypt any of our code. This allows any other
+                  developer to take over your website just in case we don't work
+                  out later on... Which won't happen :-)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
                 data-bs-target="#question-one"
               >
-                Where exactly are you located
+                How long will it take to get a new website?
               </button>
             </h2>
             <div
@@ -257,45 +340,31 @@
               data-bs-parent="#questions"
             >
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deleniti, dignissimos molestias blanditiis illum magnam id
-                velit, placeat dolores, porro, enim quaerat! Maiores, nostrum
-                totam, pariatur quasi quibusdam error necessitatibus quia neque
-                reiciendis asperiores autem. Labore temporibus esse quaerat
-                molestias! Velit aliquid ducimus voluptate, voluptatibus nobis
-                alias quis voluptatem veniam iste.
+                <p>
+                  Your project will start off with Kick-Off meeting. This is
+                  where you meet your Account Manager, Content Director, and
+                  Designer(s). At this meeting, you’ll talk through the scope of
+                  work, goals, and have an in-depth design discussion. After the
+                  Kick-Off meeting your Designer will begin work - either a
+                  logo, mood board or homepage. From there, we will work through
+                  the design of the site before gathering content.
+                </p>
+                <p>
+                  Our Content Director will guide you through the content
+                  gathering process based off of your designs. Next, we’ll
+                  conduct an SEO Audit and go through the results with your
+                  team. After 80% of your content is gathered and designs are
+                  approved, we’ll begin development. Once your site is
+                  developed, we will train your team on how to update your new
+                  website! After you’ve been trained, we will set a launch
+                  window for your website. After launch, we’ll work with you to
+                  optimize your digital marketing strategy and grow your
+                  business.
+                </p>
               </div>
             </div>
           </div>
-          <!-- Item 2 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#question-two"
-              >
-                How much does it cost to attend?
-              </button>
-            </h2>
-            <div
-              id="question-two"
-              class="accordion-collapse collapse"
-              aria-labelledby="flush-headingOne"
-              data-bs-parent="#questions"
-            >
-              <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deleniti, dignissimos molestias blanditiis illum magnam id
-                velit, placeat dolores, porro, enim quaerat! Maiores, nostrum
-                totam, pariatur quasi quibusdam error necessitatibus quia neque
-                reiciendis asperiores autem. Labore temporibus esse quaerat
-                molestias! Velit aliquid ducimus voluptate, voluptatibus nobis
-                alias quis voluptatem veniam iste.
-              </div>
-            </div>
-          </div>
+
           <!-- Item 3 -->
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -305,7 +374,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#question-three"
               >
-                What technologies/skills do I need to know?
+                Do I have to be local to work with you?
               </button>
             </h2>
             <div
@@ -315,13 +384,11 @@
               data-bs-parent="#questions"
             >
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deleniti, dignissimos molestias blanditiis illum magnam id
-                velit, placeat dolores, porro, enim quaerat! Maiores, nostrum
-                totam, pariatur quasi quibusdam error necessitatibus quia neque
-                reiciendis asperiores autem. Labore temporibus esse quaerat
-                molestias! Velit aliquid ducimus voluptate, voluptatibus nobis
-                alias quis voluptatem veniam iste.
+                <p>
+                  Nope! We work with clients all over the world. Our whole team
+                  works remotely, allowing us to find the absolute best team for
+                  our business.
+                </p>
               </div>
             </div>
           </div>
@@ -334,7 +401,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#question-four"
               >
-                How much will I make?
+                How soon can my website launch?
               </button>
             </h2>
             <div
@@ -344,13 +411,14 @@
               data-bs-parent="#questions"
             >
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deleniti, dignissimos molestias blanditiis illum magnam id
-                velit, placeat dolores, porro, enim quaerat! Maiores, nostrum
-                totam, pariatur quasi quibusdam error necessitatibus quia neque
-                reiciendis asperiores autem. Labore temporibus esse quaerat
-                molestias! Velit aliquid ducimus voluptate, voluptatibus nobis
-                alias quis voluptatem veniam iste.
+                <p>
+                  Your launch date will depend on the complexity of your
+                  website. Our usual turnaround is between 3-6 months, depending
+                  on our client’s ability to provide feedback, content, and the
+                  overall complexity of the build. If you have a specific launch
+                  date in mind, your Account Manager will be happy to work with
+                  you in setting up a timeline to achieve it.
+                </p>
               </div>
             </div>
           </div>
@@ -361,28 +429,32 @@
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#question-five"
+                data-bs-target="#question-two"
               >
-                Will you help me find a job?
+                How much will these services cost?
               </button>
             </h2>
             <div
-              id="question-five"
+              id="question-two"
               class="accordion-collapse collapse"
               aria-labelledby="flush-headingOne"
               data-bs-parent="#questions"
             >
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deleniti, dignissimos molestias blanditiis illum magnam id
-                velit, placeat dolores, porro, enim quaerat! Maiores, nostrum
-                totam, pariatur quasi quibusdam error necessitatibus quia neque
-                reiciendis asperiores autem. Labore temporibus esse quaerat
-                molestias! Velit aliquid ducimus voluptate, voluptatibus nobis
-                alias quis voluptatem veniam iste.
+                <p>
+                  Throughout your relationship with your Digital Strategist,
+                  they are constantly gathering information about your project
+                  to provide the most accurate estimate for your project. The
+                  cost depends on the amount of time used to design and custom
+                  develop your project. We offer business-specific products to
+                  help keep the cost as minimal as possible, but custom design
+                  and/or development work is billed accordingly. We’re happy to
+                  figure out the best plan to make your website work for you!
+                </p>
               </div>
             </div>
           </div>
+          <!--  -->
         </div>
       </div>
     </section>
@@ -391,17 +463,17 @@
 
     <footer class="p-5 c-bg-black text-white text-center position-relative">
       <div class="container">
-        <p class="lead">Copyright &copy; 2022 Frontend Bootcamp</p>
+        <p class="lead">Copyright &copy; 2022 Matthew McPherson</p>
         <p>
-          computer clipart black and white PNG Designed By artone from
+          Computer clipart black and white PNG Designed By Artone from
           https://pngtree.com/freepng/computer-mac_4971106.html?sol=downref&id=bef
         </p>
         <p>
-          internet PNG Designed By praying from
+          Internet PNG Designed By praying from
           https://pngtree.com/freepng/technology-abstract-network-globalization-communication-internet_5244967.html?sol=downref&id=bef
         </p>
         <p>
-          futuristic PNG Designed By New7ducks from
+          Futuristic PNG Designed By New7ducks from
           https://pngtree.com/freepng/technology-background-futuristic-geometric-background_3527866.html?sol=downref&id=bef
         </p>
         <a href="#" class="position-absolute bottom-0 end-0 p-5">
@@ -421,7 +493,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
             <button
               type="button"
               class="btn-close"
@@ -430,7 +502,7 @@
             ></button>
           </div>
           <div class="modal-body">
-            <p class="lead">Fill out this forma and we will get back to you</p>
+            <p class="lead">Fill out this form and we will get back to you</p>
             <form
               action="https://formsubmit.co/mmdesigndev@gmail.com"
               method="POST"
